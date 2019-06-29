@@ -1,8 +1,12 @@
-﻿@model CodingApe.Models.Class
+﻿@model IEnumerable<CodingApe.Models.Class>
 @{
     ViewBag.Title = "Class";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>@Model.UserName</h2>
+<ul>
+    @foreach (var user in Model) {
+        <li>@user.Categories.Id</li>
+    }
+</ul>
 

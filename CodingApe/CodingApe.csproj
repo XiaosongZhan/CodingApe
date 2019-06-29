@@ -198,6 +198,14 @@
     <Compile Include="Migrations\201906150405537_SQLSectionList.Designer.cs">
       <DependentUpon>201906150405537_SQLSectionList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906180332229_SQLCategoriesList.cs" />
+    <Compile Include="Migrations\201906180332229_SQLCategoriesList.Designer.cs">
+      <DependentUpon>201906180332229_SQLCategoriesList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906180407173_change11.cs" />
+    <Compile Include="Migrations\201906180407173_change11.Designer.cs">
+      <DependentUpon>201906180407173_change11.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Categories.cs" />
@@ -301,6 +309,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201906150405537_SQLSectionList.resx">
       <DependentUpon>201906150405537_SQLSectionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906180332229_SQLCategoriesList.resx">
+      <DependentUpon>201906180332229_SQLCategoriesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906180407173_change11.resx">
+      <DependentUpon>201906180407173_change11.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

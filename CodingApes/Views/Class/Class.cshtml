@@ -1,0 +1,12 @@
+﻿@model IEnumerable<CodingApes.Models.Topics>
+@{
+    ViewBag.Title = "Class";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<ul>
+    @foreach (var val in Model) {
+        <li>@val.Section.SectionName</li>
+    }
+</ul>
+
